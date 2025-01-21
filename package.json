@@ -1,0 +1,27 @@
+{
+  "name": "introduction-to-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start" : "node mongodb/mongo-driver.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavishaya-khandelwal-dianapps/Introduction-To-DataBase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhavishaya-khandelwal-dianapps/Introduction-To-DataBase/issues"
+  },
+  "homepage": "https://github.com/bhavishaya-khandelwal-dianapps/Introduction-To-DataBase#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5"
+  }
+}

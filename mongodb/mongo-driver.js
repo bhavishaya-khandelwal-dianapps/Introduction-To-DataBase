@@ -3,6 +3,7 @@
 import { MongoClient } from "mongodb";
 
 
+
 //todo Step 2 : Now, the second step is that we create an instance of this MongoClient
 //? 2. Creating the instance of MongoClient
 const client = new MongoClient("mongodb://localhost:27017");
@@ -89,7 +90,26 @@ console.log(userCursor);
 //todo Step 8 : If we want to find a specific user then we can use findOne() method  
 //? Specific user can be find using findOne() method  
 const user = await userCollection.findOne({
-    name : "Bhavishaya"
+    name : "Bhavishaya Khandelwal"
 });
 console.log();
 console.log(user);
+console.log(user._id.toHexString());
+console.log(user.name);
+
+
+
+
+
+
+//todo Step 9 : Now, we are going to UPDATE our data 
+// await userCollection.updateOne({ name : "Bhavishaya Khandelwal" }, {$set : { age : 23 }});
+
+
+
+
+
+
+//todo Step 10 : Now, we are going to perform DELETE operation 
+const result = await userCollection.deleteOne({ name : "Rayan Shahara" });
+console.log(`${result.deletedCount} documents deleted`);

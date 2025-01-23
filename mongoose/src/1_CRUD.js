@@ -313,10 +313,3 @@ const deleteDocument = async (id) => {
 
 
 // deleteDocument("6790bb9ebe4d119ab55581f3");
-
-
-
-
-
-
-//todo Step 12 : Mongoose Built-In Validation 

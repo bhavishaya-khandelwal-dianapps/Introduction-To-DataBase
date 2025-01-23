@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./mongoose/src/validation.js"
+    "start": "node ./mongoose/src/4_Indexing.js"
   },
   "repository": {
     "type": "git",
